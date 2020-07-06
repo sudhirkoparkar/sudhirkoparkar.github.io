@@ -474,7 +474,12 @@ section.myskills p {
   width:100%;
   left:0;
 }
-
+.downloadCV {
+  min-height:172px;
+  padding-bottom:20px;
+  padding-top:20px;
+  cursor:pointer;
+}
 section.projects {
   background:#303030;
   border:20px solid white;
