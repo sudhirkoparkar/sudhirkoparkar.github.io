@@ -35,6 +35,44 @@ engineering students"/>
 <script type="text/javascript">
    function hasScrolled(){var l=$(this).scrollTop();Math.abs(lastScrollTop-l)<=delta||(l>lastScrollTop&&l>navbarHeight?$("header").removeClass("nav-down").addClass("nav-up"):l+$(window).height()<$(document).height()&&$("header").removeClass("nav-up").addClass("nav-down"),lastScrollTop=l)}jQuery(window).scroll(function(){0==jQuery(this).scrollTop()?$("header").addClass("reachedTop"):$("header").removeClass("reachedTop")});var didScroll,lastScrollTop=0,delta=2,navbarHeight=$("header").outerHeight();$(window).scroll(function(l){didScroll=!0}),setInterval(function(){didScroll&&(hasScrolled(),didScroll=!1)},250);
    </script>
+
+<style>
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    float: left;
+    padding-top: 3em;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    float:right;
+    padding-top: 3em
+  }
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    float: left;
+    padding-top: 3em
+  }
+  .card4 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    float: right;
+    padding-top: 3em
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  </style>
 </head>
 <body>
 <header class="nav-down reachedTop">
@@ -176,8 +214,38 @@ engineering students"/>
   -->
   <section class="myskills" id="myskills">
   <div class="row alignCenter">
-    <h1>Skills.</h1>
+    <h1>Expertise.</h1>
     <div class="skills">
+      
+      
+      <div class="card1">
+        <img src="img/academic.png" alt="Academic" style="width:60%">
+        <div class="container">
+          <h4><b>Academic Expertise</b></h4> 
+        </div>
+      </div>
+      
+
+      <div class="card2">
+        <img src="img/professional.png" alt="Academic" style="width:60%">
+        <div class="container">
+          <h4><b>Professional Expertise</b></h4> 
+        </div>
+      </div>
+
+      <div class="card3">
+        <img src="img/administrator.png" alt="Academic" style="width:60%">
+        <div class="container">
+          <h4><b>Administrative Expertise</b></h4> 
+        </div>
+      </div>
+
+      <div class="card4">
+        <img src="img/language.png" alt="Academic" style="width:60%">
+        <div class="container">
+          <h4><b>Language Proficiency</b></h4> 
+        </div>
+      </div>
     </div>
     
   </div>
