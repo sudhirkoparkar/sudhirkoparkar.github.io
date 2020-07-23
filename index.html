@@ -33,8 +33,8 @@ engineering students"/>
 <script src="js/modernizr.custom.js"></script>
 <script src="js/jquery.min.js"></script>
 <script type="text/javascript">
-   function hasScrolled(){var l=$(this).scrollTop();Math.abs(lastScrollTop-l)<=delta||(l>lastScrollTop&&l>navbarHeight?$("header").removeClass("nav-down").addClass("nav-up"):l+$(window).height()<$(document).height()&&$("header").removeClass("nav-up").addClass("nav-down"),lastScrollTop=l)}jQuery(window).scroll(function(){0==jQuery(this).scrollTop()?$("header").addClass("reachedTop"):$("header").removeClass("reachedTop")});var didScroll,lastScrollTop=0,delta=2,navbarHeight=$("header").outerHeight();$(window).scroll(function(l){didScroll=!0}),setInterval(function(){didScroll&&(hasScrolled(),didScroll=!1)},250);
-   </script>
+  function hasScrolled(){var l=$(this).scrollTop();Math.abs(lastScrollTop-l)<=delta||(l>lastScrollTop&&l>navbarHeight?$("header").removeClass("nav-down").addClass("nav-up"):l+$(window).height()<$(document).height()&&$("header").removeClass("nav-up").addClass("nav-down"),lastScrollTop=l)}jQuery(window).scroll(function(){0==jQuery(this).scrollTop()?$("header").addClass("reachedTop"):$("header").removeClass("reachedTop")});var didScroll,lastScrollTop=0,delta=2,navbarHeight=$("header").outerHeight();$(window).scroll(function(l){didScroll=!0}),setInterval(function(){didScroll&&(hasScrolled(),didScroll=!1)},250);
+  </script>
 
 <style>
   .card1 {
@@ -106,7 +106,7 @@ engineering students"/>
       <br>
       <span class="iama">I am </span>
       <span class="cd-words-wrapper">
-      <b class="is-visible">an Electrical Engineer &nbsp;&nbsp;</b>
+      <b class="is-visible">an Electrical Engineer .&nbsp;&nbsp;</b>
       <b>a YouTuber.</b>
       <b>an Online Instructor.</b>
       <b>an Academician.</b>
