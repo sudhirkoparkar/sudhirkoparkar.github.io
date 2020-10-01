@@ -1,3 +1,33 @@
+# Welcome to My Portfolio Website
+
+This is my personal portfolio website intended to reach more students over the globe and spead the education. Visit the website [here](https://sudhirkoparkar.github.io/)
+
+## Tools/ Technologies Used
+
+Various Tools and technologies were used in developing this website. They are listed Below : 
+
+```bash
+Visual Studio Code
+GitHub Desktop
+Git
+```
+```bash
+HTML
+CSS
+JavaScript
+```
+
+## Contributions
+
+```git
+git clone https://github.com/sudhirkoparkar.github.io.git/
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. After your issue is accepted make the discussed changes and pull the request in a new Brach. The buffere time for the approval will be 5-7 working days
+
+Please make sure to update tests as appropriate.
+
 ## LICENCE
 
 <a href="https://github.com/sudhirkoparkar/sudhirkoparkar.github.io/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-red.svg" alt="license"/></a>
